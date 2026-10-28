@@ -1,0 +1,4 @@
+﻿method,episodes,mean_final_error_mm,final_success_rate_50mm,final_within_10mm_rate,last_five_within_10mm_rate,mean_return
+random,30,243.62707061298227,0.0,0.0,0.0,-10.66269156232931
+feedback,30,4.788159062338971,1.0,0.8,0.8,-0.5287609680659077
+ppo,30,5.651182176976517,1.0,0.8,0.8,-0.456759451471555

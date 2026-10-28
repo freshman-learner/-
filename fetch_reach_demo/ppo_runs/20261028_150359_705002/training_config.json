@@ -1,0 +1,25 @@
+{
+  "env_id": "FetchReachDense-v4",
+  "seed": 42,
+  "requested_steps": 200000,
+  "actual_steps": 200704,
+  "elapsed_seconds": 443.1416399000004,
+  "training_goal_distribution": "official random goals",
+  "validation_seeds": [
+    10000,
+    10009
+  ],
+  "heldout_test_seeds": [
+    20000,
+    20029
+  ],
+  "checkpoint_selection": "minimum validation mean final position error",
+  "normalization": "VecNormalize observation and training reward",
+  "versions": {
+    "gymnasium-robotics": "1.4.2",
+    "gymnasium": "1.4.0",
+    "mujoco": "3.15.0",
+    "stable-baselines3": "2.9.0",
+    "torch": "2.13.0+cu130"
+  }
+}

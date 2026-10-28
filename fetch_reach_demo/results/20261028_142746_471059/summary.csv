@@ -1,0 +1,7 @@
+﻿mode,cycle,target_id,final_error_mm,final_official_success,first_official_success_time_s,last_five_samples_within_10mm
+random,1,1,282.06968498303553,False,,False
+random,1,2,197.33584580845016,False,,False
+random,1,3,331.86621088346214,False,,False
+random,2,1,282.06968498303553,False,,False
+random,2,2,197.33584580845016,False,,False
+random,2,3,331.86621088346214,False,,False

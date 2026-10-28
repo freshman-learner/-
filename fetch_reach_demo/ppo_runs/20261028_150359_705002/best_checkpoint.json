@@ -1,0 +1,10 @@
+{
+  "method": "ppo",
+  "episodes": 10,
+  "mean_final_error_mm": 1.466646170815347,
+  "final_success_rate_50mm": 1.0,
+  "final_within_10mm_rate": 1.0,
+  "last_five_within_10mm_rate": 1.0,
+  "mean_return": -0.19611592262730604,
+  "timesteps": 200000
+}

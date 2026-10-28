@@ -1,0 +1,29 @@
+[
+  {
+    "method": "random",
+    "episodes": 30,
+    "mean_final_error_mm": 243.62707061298227,
+    "final_success_rate_50mm": 0.0,
+    "final_within_10mm_rate": 0.0,
+    "last_five_within_10mm_rate": 0.0,
+    "mean_return": -10.66269156232931
+  },
+  {
+    "method": "feedback",
+    "episodes": 30,
+    "mean_final_error_mm": 4.788159062338971,
+    "final_success_rate_50mm": 1.0,
+    "final_within_10mm_rate": 0.8,
+    "last_five_within_10mm_rate": 0.8,
+    "mean_return": -0.5287609680659077
+  },
+  {
+    "method": "ppo",
+    "episodes": 30,
+    "mean_final_error_mm": 5.651182176976517,
+    "final_success_rate_50mm": 1.0,
+    "final_within_10mm_rate": 0.8,
+    "last_five_within_10mm_rate": 0.8,
+    "mean_return": -0.456759451471555
+  }
+]

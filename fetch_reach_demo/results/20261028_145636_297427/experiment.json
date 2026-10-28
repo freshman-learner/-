@@ -1,0 +1,115 @@
+{
+  "environment": "FetchReachDense-v4",
+  "mode": "reach",
+  "seed": 42,
+  "initial_position_m": [
+    1.3418135607526176,
+    0.749100980604341,
+    0.5347227347174541
+  ],
+  "targets_m": [
+    [
+      1.4218135607526177,
+      0.6891009806043411,
+      0.5047227347174541
+    ],
+    [
+      1.2618135607526175,
+      0.809100980604341,
+      0.5947227347174542
+    ],
+    [
+      1.3718135607526176,
+      0.849100980604341,
+      0.4647227347174541
+    ]
+  ],
+  "cycles": 3,
+  "control_timestep_s": 0.04,
+  "viewer": "mujoco_native_passive",
+  "official_distance_threshold_m": 0.05,
+  "results": [
+    {
+      "mode": "reach",
+      "cycle": 1,
+      "target_id": 1,
+      "final_error_mm": 0.3758721566409384,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.08,
+      "last_five_samples_within_10mm": true
+    },
+    {
+      "mode": "reach",
+      "cycle": 1,
+      "target_id": 2,
+      "final_error_mm": 0.4313388737791395,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.12,
+      "last_five_samples_within_10mm": true
+    },
+    {
+      "mode": "reach",
+      "cycle": 1,
+      "target_id": 3,
+      "final_error_mm": 0.4193119395834042,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.12,
+      "last_five_samples_within_10mm": true
+    },
+    {
+      "mode": "reach",
+      "cycle": 2,
+      "target_id": 1,
+      "final_error_mm": 0.3758721566409384,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.08,
+      "last_five_samples_within_10mm": true
+    },
+    {
+      "mode": "reach",
+      "cycle": 2,
+      "target_id": 2,
+      "final_error_mm": 0.4313388737791395,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.12,
+      "last_five_samples_within_10mm": true
+    },
+    {
+      "mode": "reach",
+      "cycle": 2,
+      "target_id": 3,
+      "final_error_mm": 0.4193119395834042,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.12,
+      "last_five_samples_within_10mm": true
+    },
+    {
+      "mode": "reach",
+      "cycle": 3,
+      "target_id": 1,
+      "final_error_mm": 0.3758721566409384,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.08,
+      "last_five_samples_within_10mm": true
+    },
+    {
+      "mode": "reach",
+      "cycle": 3,
+      "target_id": 2,
+      "final_error_mm": 0.4313388737791395,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.12,
+      "last_five_samples_within_10mm": true
+    },
+    {
+      "mode": "reach",
+      "cycle": 3,
+      "target_id": 3,
+      "final_error_mm": 0.4193119395834042,
+      "final_official_success": true,
+      "first_official_success_time_s": 0.12,
+      "last_five_samples_within_10mm": true
+    }
+  ],
+  "note": "Scripted feedback control, not a trained RL policy. Repeated cycles use identical initial states and goals."
+}
